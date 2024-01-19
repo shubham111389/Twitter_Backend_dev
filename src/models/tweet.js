@@ -9,12 +9,12 @@ const tweetSchema = new mongoose.Schema({
     userEmail: {
         type: String
     },
-    comments: [
+    /*comments: [
         {
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Comment'
         }
-    ]
+    ]*/
 }, {timestamps: true});
 
 tweetSchema.virtual('contentWithEmail').get(function process() {
