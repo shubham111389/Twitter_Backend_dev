@@ -1,5 +1,3 @@
-// REPOSITORIES FOLDER IS USED FOR THE CRUD FUNCTION
-
 const Tweet = require('../models/tweet');
 
 class TweetRepository {
